@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Video files (uncomment if you want to ignore these)
+# *.mp4
+# *.mpeg
+
+# Any other temporary or IDE-specific files you might want to ignore
+*.log
+*.bak
