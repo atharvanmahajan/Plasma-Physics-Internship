@@ -8,8 +8,8 @@ def create_video(grid, filename):
     matplotlib.use('Agg')  # Use the 'Agg' backend for non-interactive plotting
 
     fig, ax = plt.subplots(figsize=(10, 6))
-    ax.set_xlim(0, grid.shape[2])
-    ax.set_ylim(0, grid.shape[1])
+    ax.set_xlim(0, grid.shape[2] - 1)
+    ax.set_ylim(0, grid.shape[1] - 1)
 
     contour = None
 
