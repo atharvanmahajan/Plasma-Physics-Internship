@@ -8,3 +8,9 @@
 
 - [ ] Define Metrics to quantify the accuracy of solution
 - [ ] Analyse the error in ranic advection simulation in fourier space
+
+- [ ] Ideas for the bug fixing
+- - [ ] Understand the use of alpha = u(x - alpha) algorithm
+- - [ ] Try to bring the CFL condition in play, actually define stuff like delta x, delta t and so on to solve it
+- - [ ] Understand the origin of the 15/8 scheme
+- - [ ] Try it for a smooth function, use method of manufactured solutions to achieve that
