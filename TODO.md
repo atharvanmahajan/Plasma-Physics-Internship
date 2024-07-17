@@ -9,8 +9,7 @@
 - [ ] Define Metrics to quantify the accuracy of solution
 - [ ] Analyse the error in ranic advection simulation in fourier space
 
-- [ ] Ideas for the bug fixing
-- - [ ] Understand the use of alpha = u(x - alpha) algorithm
-- - [ ] Try to bring the CFL condition in play, actually define stuff like delta x, delta t and so on to solve it
-- - [ ] Understand the origin of the 15/8 scheme
-- - [ ] Try it for a smooth function, use method of manufactured solutions to achieve that
+- [ ] Method of manufactured solutions for the 1D Burger's equation
+- [ ] Alpha visualizer near break point
+- [ ] shift_diff instead of roll_diff (non periodic)
+- [ ] figure out boundary conditions for non periodic functions
