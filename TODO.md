@@ -1,15 +1,12 @@
-- [ ] Finish the 1D Rancic Burger's equation solver
+- [x] Finish the 1D Rancic Burger's equation solver
 - - [x] Initalize the grid
 - - [x] Define the initial conditions
 - - [x] Starting value iterative solver
 - - [x] Define the Rancic Algorithm for non constant velocity
 - - [x] Create video simmulation
-- - [ ] Fix the multiple field postions bug
+- - [x] Fix the multiple field postions bug
 
-- [ ] Define Metrics to quantify the accuracy of solution
-- [ ] Analyse the error in ranic advection simulation in fourier space
-
-- [ ] Method of manufactured solutions for the 1D Burger's equation
-- [ ] Alpha visualizer near break point
-- [ ] shift_diff instead of roll_diff (non periodic)
-- [ ] figure out boundary conditions for non periodic functions
+- [ ] Finish the 2D xv phase space equation solver
+- - [ ] Initialize the field and boundary conditions 
+- - [ ] Think about the departure point algorithm (consider edge information and how to deal if estimate is outside the grid)
+- - [ ] Create 
